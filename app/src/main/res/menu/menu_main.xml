@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/death"
+        android:orderInCategory="100"
+        android:title="By Death"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/confirmed"
+        android:orderInCategory="100"
+        android:title="By Confirmed"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/active"
+
+        android:orderInCategory="100"
+        android:title="By Active"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/recovered"
+
+        android:orderInCategory="100"
+        android:title="By Recovered"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/defaults"
+        android:orderInCategory="100"
+        android:title="Default"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sort"
+        android:orderInCategory="100"
+        android:title="Ascending"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/sortdesc"
+        android:orderInCategory="100"
+        android:title="Descending"
+        app:showAsAction="ifRoom" />
+
+    </group>
+</menu>
